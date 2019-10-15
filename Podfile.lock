@@ -1,0 +1,76 @@
+PODS:
+  - Alamofire (4.9.0)
+  - Braid/Core (1.0.2)
+  - Braid/Rx (1.0.2):
+    - Braid/Core
+    - RxCocoa (~> 4.4)
+    - RxSwift (~> 4.4)
+  - collection-view-layouts/Core (0.2.2)
+  - collection-view-layouts/FacebookLayout (0.2.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/FlickrLayout (0.2.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/FlipboardLayout (0.2.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/InstagramLayout (0.2.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/PinterestLayout (0.2.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/Px500Layout (0.2.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/TagsLayout (0.2.2):
+    - collection-view-layouts/Core
+  - Moya/Core (10.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (10.0.2):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - Result (3.2.4)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxOptional (3.6.2):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.5.0)
+
+DEPENDENCIES:
+  - Braid/Rx
+  - collection-view-layouts/Core
+  - collection-view-layouts/FacebookLayout
+  - collection-view-layouts/FlickrLayout
+  - collection-view-layouts/FlipboardLayout
+  - collection-view-layouts/InstagramLayout
+  - collection-view-layouts/PinterestLayout
+  - collection-view-layouts/Px500Layout
+  - collection-view-layouts/TagsLayout
+  - Moya/RxSwift (~> 10.0)
+  - Result (~> 3.0)
+  - RxCocoa (~> 4.0)
+  - RxOptional
+  - RxSwift (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Braid
+    - collection-view-layouts
+    - Moya
+    - Result
+    - RxCocoa
+    - RxOptional
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  Braid: 2584cb9a3543f19cf8787796ca8f49b29c4286f5
+  collection-view-layouts: 474ec4cce601a26247737227a97fa6a4eb30213f
+  Moya: 2b0531a9fef318e0bc484030c3db1e6f279ccb66
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxOptional: 80426a0ddbd092573e4c482d8cc13302078c4d5e
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+
+PODFILE CHECKSUM: 8689406b24158e9b5caef3666e9bbb6e7f250b88
+
+COCOAPODS: 1.5.3
